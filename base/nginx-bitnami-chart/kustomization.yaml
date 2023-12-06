@@ -17,7 +17,7 @@ configMapGenerator:
 helmChartInflationGenerator:
 - chartName: nginx
   chartRepoUrl: https://charts.bitnami.com/bitnami
-  chartVersion: 9.5.4
+  chartVersion: 15.4.3
   releaseName: my-nginx-release
   releaseNamespace: nginx-chart
   # override with these custom values
