@@ -14,7 +14,8 @@ configMapGenerator:
   - cm-index.html
 
 # Bitnami NGINX helm chart
-helmChartInflationGenerator:
+# helmChartInflationGenerator:
+helmCharts:
 - chartName: nginx
   chartRepoUrl: https://charts.bitnami.com/bitnami
   chartVersion: 15.4.3
