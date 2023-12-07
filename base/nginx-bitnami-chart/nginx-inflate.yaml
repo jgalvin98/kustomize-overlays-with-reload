@@ -1,5 +1,5 @@
 apiVersion: builtin
-kind: HelmChartInflationGenerator
+kind: ChartInflator
 chartName: nginx
 chartRepoUrl: https://charts.bitnami.com/bitnami
 chartVersion: 15.4.3
